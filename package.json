@@ -28,9 +28,9 @@
   },
   "scripts": {
     "start": "node server/start.js",
-    "dev": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "dev": "node client/scripts/start.js",
+    "build": "node client/scripts/build.js",
+    "test": "node client/scripts/test.js --env=jsdom"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
@@ -111,5 +111,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }

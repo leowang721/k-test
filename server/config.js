@@ -5,6 +5,6 @@ module.exports = {
     ROOT: path.resolve(__dirname, '../build/'),
     PROTOCOL: 'http',
     HOST: '127.0.0.1',
-    PORT: '9966'
+    PORT: '3001'
   }
 }

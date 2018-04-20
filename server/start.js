@@ -1,7 +1,7 @@
 // 启动 server
 
-const fs = require('fs');
-const path = require('path');
+// const fs = require('fs');
+// const path = require('path');
 const Koa = require('koa');
 const serveStatic = require('koa-static');
 const log = require('typelog');
